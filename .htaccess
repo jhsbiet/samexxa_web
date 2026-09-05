@@ -1,0 +1,28 @@
+# Samexxa SEO-friendly clean URLs
+# Apache 2.4+ / mod_rewrite
+
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Keep real files and directories working normally.
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Permanently redirect /page.html -> /page
+    RewriteCond %{THE_REQUEST} \s/+(.+?)\.html(?:[?\s]) [NC]
+    RewriteRule ^(.+)\.html$ /$1 [R=301,L,NE]
+
+    # Internally map clean URLs to their existing .html files.
+    RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+    RewriteRule ^(.+?)/?$ $1.html [L]
+
+    # Explicit root route.
+    RewriteRule ^$ index.html [L]
+</IfModule>
+
+# Optional: prevent directory listing
+Options -Indexes
