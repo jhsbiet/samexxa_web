@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin
 Disallow: /admin.html
 
-Sitemap: https://samexxa_web.demoadda.in/sitemap.xml
+Sitemap: https://samexxa-web.demoadda.in/sitemap.xml
