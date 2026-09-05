@@ -1,0 +1,24 @@
+{
+  "brand":"Samexxa",
+  "tagline":"EVERY NEED, ONE SAMEXXA",
+  "logo":"assets/samexxa-logo.jpg",
+  "social":{"facebook":"","instagram":"","youtube":"","linkedin":"","x":""},
+  "stores":{"appStore":"https://www.apple.com/app-store/","playStore":"https://play.google.com/store"},
+  "banners":[
+    {"title":"Every need. One Samexxa.","text":"Discover products, local stores and fresh offers in one place.","button":"Explore now","link":"#categories"},
+    {"title":"Support local. Shop smarter.","text":"Find neighbourhood businesses and useful everyday choices.","button":"Meet local sellers","link":"about.html"},
+    {"title":"Fresh offers are moving.","text":"Come back for new campaigns, categories and marketplace stories.","button":"See offers","link":"#offers"}
+  ],
+  "about":{"title":"Shopping that feels closer.","content":"Samexxa is a modern marketplace concept connecting shoppers, neighbourhood businesses and trusted sellers. We bring discovery, promotions and everyday shopping together with a simple, human-first experience."},
+  "pages":{
+    "terms":{"title":"Terms & Conditions","content":"These Terms & Conditions govern use of the Samexxa website and marketplace experience. By using the service, you agree to use it lawfully, provide accurate information and respect seller and platform policies. Product, seller, pricing, delivery and promotional information may change."},
+    "privacy":{"title":"Privacy Policy","content":"Samexxa respects your privacy. Information submitted through forms or account experiences should be used only to provide requested services, support, communication and platform improvements. Production deployments should connect this content to the same privacy CMS and controls used by the mobile application."},
+    "refund":{"title":"Return & Refund Policy","content":"Return and refund eligibility depends on the product, seller and applicable marketplace rules. Customers should review product-specific conditions before completing a purchase and contact support promptly when an order has an issue. The production policy should be synchronized with the app CMS."}
+  },
+  "faq":[
+    {"q":"What is Samexxa?","a":"A marketplace experience connecting shoppers, local businesses, trusted sellers, products and promotions."},
+    {"q":"Can local stores join?","a":"Yes. Samexxa is designed to help local businesses create digital visibility and promote what they sell."},
+    {"q":"Where can I download the app?","a":"Use the App Store and Google Play badges on the website when the app is published."},
+    {"q":"How do I contact Samexxa?","a":"Use the Contact Us enquiry form. Submitted enquiries appear in the Admin enquiry inbox for this web prototype."}
+  ]
+}
